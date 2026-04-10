@@ -50,31 +50,95 @@ public class FaceController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             ResetTargets();
-            SetTargetShape("EyebrowDown_L", 47.5f);
-            SetTargetShape("EyebrowDown_R", 47.5f);
-            SetTargetShape("Blink_L", 20f);
-            SetTargetShape("Blink_R", 20f);
-            SetTargetShape("Smile_L", 80f);
-            SetTargetShape("Smile_R", 80f);
-            SetTargetShape("Closed Mouth", 100f);
+            SetTargetShape("EyebrowFurrow.L", 100f);
+            SetTargetShape("EyebrowFurrow.R", 100f);
+            SetTargetShape("EyebrowTilt.L", 83.8f);
+            SetTargetShape("EyebrowTilt.R", 83.8f);
+            SetTargetShape("Blink.L", 18.4f);
+            SetTargetShape("Blink.R", 18.4f);
+            SetTargetShape("Eyelashesblink.L", 18.4f);
+            SetTargetShape("Eyelashesblink.R", 18.4f);
+            SetTargetShape("Smile", 0f);
+            SetTargetShape("Frown", 100f);
+            SetTargetShape("LipRaise.L", -30.2f);
+            SetTargetShape("LipRaise.R", -30.2f);
+            SetTargetShape("MouthOpenTop", 0f);
+            SetTargetShape("MouthOpenBottom", 0f);
+            SetTargetShape("TeethTopUp", 0f);
+            SetTargetShape("TeethBottomDown", 0f);
+            SetTargetShape("TongueMoveDown", 0f);
+            SetTargetShape("BodyCorrector", 64.2f);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             ResetTargets();
-            SetTargetShape("EyebrowDown_L", 35f);
-            SetTargetShape("EyebrowDown_R", 35f);
-            SetTargetShape("Blink_L", 100f);
-            SetTargetShape("Blink_R", 100f);
-            SetTargetShape("Pursed Mouth", 100f);
+            SetTargetShape("EyebrowFurrow.L", 0f);
+            SetTargetShape("EyebrowFurrow.R", 0f);
+            SetTargetShape("EyebrowTilt.L", 0f);
+            SetTargetShape("EyebrowTilt.R", 0f);
+            SetTargetShape("Blink.L", 0f);
+            SetTargetShape("Blink.R", 0f);
+            SetTargetShape("Eyelashesblink.L", 0f);
+            SetTargetShape("Eyelashesblink.R", 0f);
+            SetTargetShape("Smile", 100f);
+            SetTargetShape("Frown", 0f);
+            SetTargetShape("LipRaise.L", -20.1f);
+            SetTargetShape("LipRaise.R", -20.1f);
+            SetTargetShape("MouthOpenTop", 0f);
+            SetTargetShape("MouthOpenBottom", 0f);
+            SetTargetShape("TeethTopUp", 0f);
+            SetTargetShape("TeethBottomDown", 0f);
+            SetTargetShape("TongueMoveDown", 0f);
+            SetTargetShape("BodyCorrector", 64.2f);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ResetTargets();
-            SetTargetShape("EyebrowUp_L", 70f);
-            SetTargetShape("EyebrowUp_R", 20f);
-            SetTargetShape("Smile", 40f);
+            SetTargetShape("EyebrowFurrow.L", 0f);
+            SetTargetShape("EyebrowFurrow.R", 100f);
+            SetTargetShape("EyebrowTilt.L", 100f);
+            SetTargetShape("EyebrowTilt.R", 69.3f);
+            SetTargetShape("Blink.L", 0f);
+            SetTargetShape("Blink.R", 9.5f);
+            SetTargetShape("Eyelashesblink.L", 0f);
+            SetTargetShape("Eyelashesblink.R", 9.5f);
+            SetTargetShape("Smile", 0f);
+            SetTargetShape("Frown", 100f);
+            SetTargetShape("LipRaise.L", 59.2f);
+            SetTargetShape("LipRaise.R", -33.5f);
+            SetTargetShape("MouthOpenTop", 0f);
+            SetTargetShape("MouthOpenBottom", 0f);
+            SetTargetShape("TeethTopUp", 0f);
+            SetTargetShape("TeethBottomDown", 0f);
+            SetTargetShape("TongueMoveDown", 0f);
+            SetTargetShape("BodyCorrector", 64.2f);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            ResetTargets();
+            SetTargetShape("EyebrowFurrow.L", 0f);
+            SetTargetShape("EyebrowFurrow.R", 0f);
+            SetTargetShape("EyebrowTilt.L", 0f);
+            SetTargetShape("EyebrowTilt.R", 0f);
+            SetTargetShape("Blink.L", 0f);
+            SetTargetShape("Blink.R", 0f);
+            SetTargetShape("Eyelashesblink.L", 0f);
+            SetTargetShape("Eyelashesblink.R", 0f);
+            SetTargetShape("Smile", 0f);
+            SetTargetShape("Frown", 0f);
+            SetTargetShape("LipRaise.L", 0f);
+            SetTargetShape("LipRaise.R", 0f);
+            SetTargetShape("MouthOpenTop", 0f);
+            SetTargetShape("MouthOpenBottom", 0f);
+            SetTargetShape("TeethTopUp", 0f);
+            SetTargetShape("TeethBottomDown", 0f);
+            SetTargetShape("TongueMoveDown", 0f);
+            SetTargetShape("BodyCorrector", 64.2f);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha0))
