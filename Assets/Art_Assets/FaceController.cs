@@ -83,10 +83,10 @@ public class FaceController : MonoBehaviour
             SetTargetShape("Eyelashesblink.R", 0f);
             SetTargetShape("Smile", 100f);
             SetTargetShape("Frown", 0f);
-            SetTargetShape("LipRaise.L", -20.1f);
-            SetTargetShape("LipRaise.R", -20.1f);
-            SetTargetShape("MouthOpenTop", 0f);
-            SetTargetShape("MouthOpenBottom", 0f);
+            SetTargetShape("LipRaise.L", 29.4f);
+            SetTargetShape("LipRaise.R", 29.4f);
+            SetTargetShape("MouthOpenTop", 51.9f);
+            SetTargetShape("MouthOpenBottom", 26.7f);
             SetTargetShape("TeethTopUp", 0f);
             SetTargetShape("TeethBottomDown", 0f);
             SetTargetShape("TongueMoveDown", 0f);
